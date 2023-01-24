@@ -147,11 +147,13 @@ body{
     bottom: 0;
     animation: spin 5s infinite linear;
 }
+
 @keyframes spin{
     100%{
         transform: rotate(360deg);
     }
 }
+
 .rocket{
     background-color: #fafcf7;
     height: 50px;
